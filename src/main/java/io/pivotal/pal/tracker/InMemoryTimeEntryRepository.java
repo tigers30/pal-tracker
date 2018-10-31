@@ -22,9 +22,6 @@ public class InMemoryTimeEntryRepository implements TimeEntryRepository {
         return timeEntries.get(id);
     }
 
-//    public TimeEntry create(TimeEntry timeEntry) {
-//
-//    }
 
     public List<TimeEntry> list() {
 
